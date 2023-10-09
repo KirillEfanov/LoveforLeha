@@ -3,7 +3,7 @@ function Rectangle(x, y, w, h)
     this.x = x
     this.y = y
     this.w = w
-    this.h= h
+    this.h = h
 
     function this:draw()
         love.graphics.rectangle("fill", self.x, self.y, self.w, self.h) -- по x вправо
@@ -45,7 +45,7 @@ function love.draw()
     love.graphics.setFont(font)
     love.graphics.print("X", 4, 5)
     love.graphics.print("Y", 1205, 690)
-	love.graphics.line(10,28, 10,700, 1200,700) --оси координат
+    love.graphics.line(10,28, 10,700, 1200,700) --оси координат
     love.graphics.line(15,38, 10,28, 5,38) --стрелка по X
     love.graphics.line(1190,695, 1200,700, 1190,705) --стрелка по Y
     rectangle:draw()
