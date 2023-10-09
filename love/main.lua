@@ -1,9 +1,9 @@
 function love.load()
-	font = love.graphics.newFont(18)
+    font = love.graphics.newFont(18)
     love.window.setMode(1280, 720)
     
-    mouseX = 0
-	mouseY = 0
+    mouseX = 0 
+    mouseY = 0
 
     xrectangle = 20
     yrectangle = 640
